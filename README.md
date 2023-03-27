@@ -1,1 +1,25 @@
-# Project-calculator
+# Name
+
+Calculator
+
+# Explain
+
+計算機です。チェックボックスにチェックすると、計算の優先順位を変えることができます。
+
+# Demo
+
+
+
+https://user-images.githubusercontent.com/125679029/227927168-9e0215b2-a1bd-4859-85f2-bd7c1fbc35e6.mov
+
+
+
+# Improvements
+
+* 0が先頭の時も数字を入力できてしまいます
+* キーボード入力には対応していません（EnterとBackspaceはできる）
+
+# Author
+
+* 作成者 YasuhiroNagahama
+* E-mail fnifhubi85h29bddi@gmail.com
