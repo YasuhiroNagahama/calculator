@@ -1,0 +1,101 @@
+@charset "UTF-8";
+:root {
+  --primary-color: blue;
+  --danger-color: red;
+  --success-color: green;
+  --warning-color: yellow;
+  --dark-color: black;
+  --white-color: white;
+  --secondary-color: gray;
+}
+
+body {
+  color: var(--dark-color);
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1080px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+  }
+}
+
+header {
+  width: 300px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 600px) {
+  header {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+.history-display-icon {
+  cursor: pointer;
+}
+
+.history-display {
+  height: 400px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.history-display::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  margin-top: 40px;
+  max-width: 600px;
+}
+@media screen and (min-width: 1080px) {
+  .container {
+    margin-top: 0;
+  }
+}
+
+.display {
+  text-align: right;
+}
+
+.select-switch {
+  width: 20px;
+  height: 20px;
+}
+
+.button-wrapper {
+  max-width: 500px;
+  height: 600px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.button-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.button {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: var(--dark-color);
+}
+@media screen and (min-width: 768px) {
+  .button {
+    width: 100px;
+    height: 80px;
+  }
+}
+
+.button:hover {
+  opacity: 0.6;
+}
