@@ -4,7 +4,7 @@ Calculator
 
 # URL
 
-https://yasuhironagahama.github.io/Project-calculator/
+https://yasuhironagahama.github.io/calculator/
 
 # Explain
 
